@@ -29,3 +29,23 @@ div.error{
   width:100%;
   text-align:center;
 }
+form{
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+input.MyButton {
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background: #3366cc;
+    color: #fff;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+    }
+    input.MyButton:hover {
+    color: #ffff00;
+    background: #000;
+    border: 1px solid #fff;
+    }
